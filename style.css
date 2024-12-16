@@ -1,0 +1,77 @@
+body {
+    /* background-color: aquamarine; */
+    background: rgba(212, 127, 195, 100)
+}
+.calcContainer{
+    border:solid blue;
+    margin:6em;
+    height:65vh;
+}
+.calScreen{
+    border:solid black;
+    height:29vh;
+    margin:1em;
+    display: flex;
+}
+
+.output1 {
+    border:solid red;
+    height: 211px;
+    width: 50%;
+    
+}
+.output2 {
+    border:solid orange;
+    height: 211px;
+    width: 50%;
+    
+}
+.numPad{
+    border:solid grey;
+    display:flex;
+    height:29vh;
+    margin:1em;
+    
+    
+}
+.numOnly{
+    border:solid peru;
+    width:40%;
+    padding: 9px;
+    align-items: center;
+    /* display: grid; */
+    /* min-height: 100vh;
+    grid-template-columns: repeat(4, 100px);
+     */
+   
+}
+.operators{
+    border:solid lightblue;
+    width:55%;
+    display: grid;
+}
+
+
+.numOnly > button {
+    border: 1px solid white;
+    outline: none;
+    background-color: rgba(20, 185, 208, .65)
+}
+
+.numOnly > button:hover {
+    border: 1px solid white;
+    /* outline: none; */
+    background-color: rgba(20, 185, 208, .95)
+}
+
+.operators > button {
+    border: 1px solid white;
+    outline: none;
+    background-color: rgba(20, 185, 208, .65)
+}
+
+.operators > button:hover {
+    border: 1px solid white;
+    /* outline: none; */
+    background-color: rgba(20, 185, 208, .95)
+}
